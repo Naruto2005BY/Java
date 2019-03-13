@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"by.bsu.lab1"},{"l":"by.bsu.lab1.solver"},{"l":"by.bsu.lab1.util"}]

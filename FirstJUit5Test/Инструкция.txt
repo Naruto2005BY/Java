@@ -1,0 +1,62 @@
+1. Создать проект.
+2. Создать иерархию пакетов:
+ в src пакет проекта, например, culc. В нем run и util.
+ Main помещаем в run.
+ На одном уровне с src создаем папку test.
+ На одном уровне с src создаем папку lib.
+3. В util создает класс Calculator.
+ 
+package culc.util;
+
+public class Calculator {
+    public int sum(int a, int b){
+        return a+b;
+    }
+    public int mult(int a, int b){
+        return a-b;
+    }
+}
+4. Щелкаем по папке test правой кнопкой мыши. Выбираем Mark directory as->Test sourcer root.
+Папка станет зеленой.
+5. Ставим курсор на имя класса в Calculator.java.
+Alt+ввод. Create test.
+В появившемся окне выбираем:
+Testing library->JUnit5.
+Кнорка Fix. Download to->выбираем директорию lib.
+Методы теста отмечаем галочками.
+Генерится код.
+Внутрь методов дописываем код. 
+package culc.util;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class CalculatorTest {
+
+    @Test
+    void sum() {
+        int a = 1;
+        int b = 3;
+        int expected = 4;
+        Calculator calc = new Calculator();
+        int actual = calc.sum(a,b);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    void mult() {
+        int a = 0;
+        int b = 3;
+        int expected = 0;
+        Calculator calc = new Calculator();
+        int actual = calc.mult(a,b);
+        assertEquals(expected,actual);
+
+    }
+}
+Запускаем тесты по зеленым треугольничкам.
+
+
+
+

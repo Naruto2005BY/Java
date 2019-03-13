@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"by.bsu.lab1.util","l":"InputArray"},{"p":"by.bsu.lab1.util","l":"InputInteger"},{"p":"by.bsu.lab1","l":"Main"},{"p":"by.bsu.lab1.solver","l":"TaskSolver"}]

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"by.bsu.lab4.entity","l":"Abiturient"},{"p":"by.bsu.lab4.factory","l":"AbiturientFactory"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"by.bsu.lab4","l":"Main"},{"p":"by.bsu.lab4.constants","l":"NumMarks"},{"p":"by.bsu.lab4.solver","l":"TaskSolver"}]
